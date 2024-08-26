@@ -1,0 +1,131 @@
+/* Sidebar Styling */
+.sidebar {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  font-size: 1.1rem;
+  padding: 10px 0;
+}
+
+.sidebar .nav-link.active {
+  font-weight: bold;
+}
+
+/* Main Content Styling */
+.main-content {
+  padding: 20px;
+}
+
+.main-content .row {
+  margin-top: 30px;
+}
+
+/* Ensure the search bar container fits within the main content */
+.search-container {
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* Input Group to Style the Search Bar */
+.search-bar {
+  width: 100%;
+}
+
+/* Adjust Input Width */
+.search-bar input {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+
+/* Input Group Text - For the Search Icon */
+.input-group-text {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px ;
+}
+
+/* Widget Styling */
+.widget-card {
+ border: 1px solid rgb(173, 165, 165);
+  border-radius: 10px rgb(173, 165, 165);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+  
+}
+
+.widget-card .card-header {
+  font-weight: bold;
+ 
+  font-size: 1.2rem;
+  
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+ 
+  background-color: #eff5fa;
+  
+  border-bottom: 1px solid #89979e;
+  
+}
+
+.widget-card .card-body {
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ 
+}
+  
+
+.chart-placeholder {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #45586b;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+.chart-container {
+  height: 300px;
+  max-width: 500px;
+}
+
+/* Additional spacing */
+.mb-2 {
+  margin-bottom: 15px;
+}
+
+/* Right Sidebar Styling */
+.right-sidebar {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 16.66%;
+}
+.container-fluid {
+  overflow: hidden;
+}
